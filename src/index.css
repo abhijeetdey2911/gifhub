@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@theme {
+  --color-[#FAF8F5]: #FAF8F5;
+  --color-cream-50: #FCFBF8;
+  --color-cream-100: #FAF8F5;
+  --color-cream-200: #F5F2EC;
+  --color-cream-300: #ECE6DC;
+  --color-cream-400: #DDD5C7;
+  --color-obsidian: #111111;
+  
+  --font-sans: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+  
+  --animate-marquee: marquee 30s linear infinite;
+  --animate-float-slow: float 8s ease-in-out infinite;
+  --animate-float-medium: float 5s ease-in-out infinite;
+  --animate-bounce-subtle: bounceSubtle 3s ease-in-out infinite;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-12px) rotate(1deg); }
+}
+
+@keyframes bounceSubtle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+body {
+  background-color: #FAF8F5;
+  color: #111111;
+  font-family: var(--font-sans);
+}
+
+/* Glassmorphism and Custom Utilities */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(17, 17, 17, 0.08);
+}
+
+.glass-pill {
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(17, 17, 17, 0.09);
+}
+
+.editorial-heading {
+  letter-spacing: -0.04em;
+  line-height: 0.94;
+}
+
+/* Scrollbar customization */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #DDD5C7;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B8B0A2;
+}
