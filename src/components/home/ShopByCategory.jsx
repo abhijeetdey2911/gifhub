@@ -6,11 +6,11 @@ import { Flower2, Cake, Cookie, Gift, Leaf, Sparkles, Package, ArrowRight } from
 const CATEGORY_IMAGES = {
   flowers: 'https://images.unsplash.com/photo-1561181286-d3fee7d55364?q=80&w=600&auto=format&fit=crop',
   cakes: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=600&auto=format&fit=crop',
-  chocolates: 'https://images.unsplash.com/photo-1549007994-cb92caebd54b?q=80&w=600&auto=format&fit=crop',
-  hampers: 'https://images.unsplash.com/photo-1549465220-1a8b9238cd48?q=80&w=600&auto=format&fit=crop',
+  chocolates: '/images/gifhub_champagne_box.png',
+  hampers: '/images/gifhub_festive_hamper.png',
   plants: 'https://images.unsplash.com/photo-1614594975525-e45190c55d0b?q=80&w=600&auto=format&fit=crop',
   personalized: 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=600&auto=format&fit=crop',
-  'gift-boxes': 'https://images.unsplash.com/photo-1513201099705-a9746e1e201f?q=80&w=600&auto=format&fit=crop',
+  'gift-boxes': '/images/gifhub_forever_box.png',
 };
 
 const ICON_MAP = {

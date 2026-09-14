@@ -38,6 +38,13 @@ body {
   font-family: var(--font-sans);
 }
 
+button,
+a,
+nav a,
+nav button {
+  text-decoration: none !important;
+}
+
 /* Glassmorphism and Custom Utilities */
 .glass-panel {
   background: rgba(255, 255, 255, 0.72);

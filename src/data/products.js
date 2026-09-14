@@ -14,42 +14,42 @@ export const OCCASIONS = [
     id: 'birthday',
     name: 'Birthday',
     description: 'Celebrate another year of warmth, laughter and joyful memories.',
-    image: 'https://images.unsplash.com/photo-1513151233558-d860c5398176?q=80&w=1000&auto=format&fit=crop',
+    image: '/images/occ_birthday.png',
     tagline: 'Make their day unforgettable'
   },
   {
     id: 'anniversary',
     name: 'Anniversary',
     description: 'Timeless tokens of devotion crafted for everlasting love.',
-    image: 'https://images.unsplash.com/photo-1518199266791-5375a83190b7?q=80&w=1000&auto=format&fit=crop',
+    image: '/images/occ_anniversary.png',
     tagline: 'Honoring your love story'
   },
   {
     id: 'celebration',
     name: 'Celebration',
     description: 'Pop the champagne with curated delights for big milestones.',
-    image: 'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?q=80&w=1000&auto=format&fit=crop',
+    image: '/images/occ_celebration.png',
     tagline: 'Toast to every milestone'
   },
   {
     id: 'thank-you',
     name: 'Thank You',
     description: 'Express sincere gratitude with artfully packaged appreciation.',
-    image: 'https://images.unsplash.com/photo-1549465220-1a8b9238cd48?q=80&w=1000&auto=format&fit=crop',
+    image: '/images/occ_thank_you.png',
     tagline: 'Gifts of pure gratitude'
   },
   {
     id: 'just-because',
     name: 'Just Because',
     description: 'Spontaneous acts of kindness that bring spontaneous smiles.',
-    image: 'https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=1000&auto=format&fit=crop',
+    image: '/images/occ_just_because.png',
     tagline: 'No reason needed'
   },
   {
     id: 'congratulations',
     name: 'Congratulations',
     description: 'Celebrate new achievements, promotions, and proud accomplishments.',
-    image: 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=1000&auto=format&fit=crop',
+    image: '/images/occ_congratulations.png',
     tagline: 'Cheers to success'
   }
 ];
@@ -366,8 +366,8 @@ export const PRODUCTS = [
     isFeatured: true,
     shortDescription: 'Grand hamper with sparkling elixir, macarons & ceramic GIFHUB mug.',
     description: 'Our flagship celebration hamper. Featuring non-alcoholic sparkling elderflower elixir, six fresh Parisian macarons, a ceramic GIFHUB mug, and gourmet honey brittle in a handcrafted GIFHUB wooden hamper crate.',
-    image: 'https://images.unsplash.com/photo-1549465220-1a8b9238cd48?q=80&w=1000&auto=format&fit=crop',
-    gallery: ['https://images.unsplash.com/photo-1549465220-1a8b9238cd48?q=80&w=1000&auto=format&fit=crop'],
+    image: '/images/gifhub_gold_moments.png',
+    gallery: ['/images/gifhub_gold_moments.png'],
     inclusions: ['Sparkling Botanical Elixir (750ml)', '6 French Macarons', 'GIFHUB Ceramic Mug', 'Gourmet Brittle', 'GIFHUB Crate'],
     deliveryNotice: 'Hand-delivered in wooden presentation crate.'
   },
@@ -390,8 +390,8 @@ export const PRODUCTS = [
     deliveryNotice: 'Beautifully gift wrapped.'
   },
   {
-    id: 'gourmet-charcuterie-basket',
-    name: 'Gourmet Charcuterie Basket',
+    id: 'royal-indian-festive-hamper',
+    name: 'Royal Indian Festive Hamper',
     category: 'hampers',
     occasion: 'congratulations',
     price: 2499,
@@ -400,12 +400,12 @@ export const PRODUCTS = [
     reviewsCount: 104,
     isBestSeller: true,
     isFeatured: true,
-    shortDescription: 'Artisan cheeses, fig preserve, seed crackers & GIFHUB wooden board.',
-    description: 'Selection of aged cheddar, brie cheese wheel, organic fig spread, rosemary sourdough crackers, and an engraved GIFHUB teakwood cutting board.',
-    image: 'https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=1000&auto=format&fit=crop',
-    gallery: ['https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=1000&auto=format&fit=crop'],
-    inclusions: ['2 Cheese Wheels', 'Fig Preserve', 'Rosemary Crackers', 'GIFHUB Teak Board'],
-    deliveryNotice: 'Chilled delivery required.'
+    shortDescription: 'Luxury dry-fruit jars, silver thali, brass diya & sweets in a GIFHUB gold-embossed crate.',
+    description: 'A grand royal Indian gift hamper featuring cashews, almonds, pistachios in glass jars, traditional brass diya, silver presentation thali, and luxury artisanal sweets inside a handcrafted GIFHUB gold-embossed hamper crate.',
+    image: '/images/gifhub_festive_hamper.png',
+    gallery: ['/images/gifhub_festive_hamper.png'],
+    inclusions: ['4 Premium Dry Fruit Glass Jars', 'Handcrafted Brass Diya', 'Silver Presentation Thali', 'GIFHUB Gold Embossed Crate'],
+    deliveryNotice: 'Festive express delivery available.'
   },
   {
     id: 'tea-atelier-collection',
@@ -642,8 +642,8 @@ export const PRODUCTS = [
     isFeatured: true,
     shortDescription: 'Preserved eternal white roses with soy candle & GIFHUB brass snuffer.',
     description: 'Real Ecuadorian roses preserved to last up to three years without water. Encased in a soft linen GIFHUB keepsake box with a hand-poured lavender soy candle and GIFHUB brass snuffer.',
-    image: 'https://images.unsplash.com/photo-1513201099705-a9746e1e201f?q=80&w=1000&auto=format&fit=crop',
-    gallery: ['https://images.unsplash.com/photo-1513201099705-a9746e1e201f?q=80&w=1000&auto=format&fit=crop'],
+    image: '/images/gifhub_forever_box.png',
+    gallery: ['/images/gifhub_forever_box.png'],
     inclusions: ['4 Preserved Eternal Roses', 'Soy Candle (200g)', 'Gold Brass Snuffer', 'GIFHUB Linen Keepsake Box'],
     deliveryNotice: 'Ships securely boxed with shock-absorbent eco packaging.'
   },
@@ -660,8 +660,8 @@ export const PRODUCTS = [
     isFeatured: false,
     shortDescription: 'Safety razor, cedarwood balm & GIFHUB leather dopp kit.',
     description: 'Double-edge brass safety razor, sandalwood shaving cream, cedarwood beard balm, and a full-grain brown leather dopp kit with embossed GIFHUB logo.',
-    image: 'https://images.unsplash.com/photo-1621607512214-68297480165e?q=80&w=1000&auto=format&fit=crop',
-    gallery: ['https://images.unsplash.com/photo-1621607512214-68297480165e?q=80&w=1000&auto=format&fit=crop'],
+    image: '/images/gifhub_grooming_box.png',
+    gallery: ['/images/gifhub_grooming_box.png'],
     inclusions: ['Brass Safety Razor', 'Shaving Cream', 'Beard Balm', 'GIFHUB Leather Dopp Kit'],
     deliveryNotice: 'Premium men grooming collection.'
   },
@@ -696,8 +696,8 @@ export const PRODUCTS = [
     isFeatured: true,
     shortDescription: 'Twin crystal flutes, sparkling elixir & GIFHUB golden chocolates.',
     description: 'Two hand-blown crystal champagne flutes, sparkling elderflower elixir, and a velvet box of gold-dusted chocolate pralines inside a GIFHUB magnetic box.',
-    image: 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=1000&auto=format&fit=crop',
-    gallery: ['https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=1000&auto=format&fit=crop'],
+    image: '/images/gifhub_champagne_box.png',
+    gallery: ['/images/gifhub_champagne_box.png'],
     inclusions: ['2 Crystal Flutes', 'Sparkling Elixir (750ml)', 'GIFHUB Gold Chocolates Box'],
     deliveryNotice: 'Hand delivery option available.'
   },

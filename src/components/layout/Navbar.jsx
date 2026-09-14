@@ -78,15 +78,15 @@ export const Navbar = () => {
                       handleNavClick(link.path);
                     }
                   }}
-                  className={`text-xs uppercase tracking-widest font-semibold transition-all relative py-1 ${
+                  className={`text-xs uppercase tracking-widest no-underline border-0 outline-none transition-colors relative py-1 focus:outline-none ${
                     isActive
-                      ? 'text-obsidian font-bold'
-                      : 'text-neutral-500 hover:text-obsidian'
+                      ? 'text-obsidian font-extrabold'
+                      : 'text-neutral-500 font-semibold hover:text-obsidian'
                   }`}
                 >
                   {link.label}
                   {isActive && (
-                    <span className="absolute bottom-0 left-0 right-0 h-[1.5px] bg-obsidian rounded-full" />
+                    <span className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-1.5 h-1.5 rounded-full bg-obsidian" />
                   )}
                 </button>
               );

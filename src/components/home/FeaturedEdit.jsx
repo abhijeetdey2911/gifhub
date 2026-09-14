@@ -17,7 +17,7 @@ export const FeaturedEdit = () => {
           <div className="lg:col-span-6 relative">
             <div className="relative aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-2xl border border-neutral-900/10 group">
               <img
-                src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?q=80&w=1000&auto=format&fit=crop"
+                src="/images/gifhub_forever_box.png"
                 alt="The GIFHUB Edit curated luxury box"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
               />

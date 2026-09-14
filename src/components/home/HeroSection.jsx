@@ -91,7 +91,7 @@ export const HeroSection = () => {
           {/* Main Hero Image Container */}
           <div className="relative w-full max-w-lg aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-2xl border border-neutral-900/10 bg-neutral-100">
             <img
-              src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?q=80&w=1200&auto=format&fit=crop"
+              src="/images/gifhub_forever_box.png"
               alt="GIFHUB luxury eternal rose & candle gift box arrangement"
               className="w-full h-full object-cover"
             />
